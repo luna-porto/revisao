@@ -1,0 +1,10 @@
+#img{
+    height: 200px;
+    width: 200px;
+    background-image: url(imagem\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    border: black 2px solid;
+    margin-top: 50px;
+    margin-left: 50px;
+}
