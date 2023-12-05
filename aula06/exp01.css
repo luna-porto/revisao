@@ -1,0 +1,57 @@
+body{
+    background-color: blue;
+    margin: 0px;
+}
+.box{
+    background-color: rgba(0 0 255);
+    margin: 10px;
+    height: 700px;
+    width: auto;
+    display: grid;
+    grid-template-areas: "menu1 menu1 menu1"
+                         "menu2 menu3 menu4"
+                         "menu2 menu5 menu5";
+    grid-template-rows: 100px 1rf 100px;
+    grid-template-columns: 150px 1rf 90px;
+    gap: 10px;
+}
+
+.menu1{
+    background-color: rgba(0, 247, 255, 0.747);
+    grid-area: menu1;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.menu2{
+    background-color: rgba(0, 247, 255, 0.747);
+    grid-area: menu2;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.menu3{
+    background-color: rgba(0, 247, 255, 0.747);
+    grid-area: menu3;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.menu4{
+    background-color: rgba(0, 247, 255, 0.747);
+    grid-area: menu4;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.menu5{
+    background-color: rgba(0, 247, 255, 0.747);
+    grid-area: menu5;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
