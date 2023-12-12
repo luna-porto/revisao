@@ -1,0 +1,64 @@
+.box{
+    height: 600px;
+    width: auto;
+    display: grid;
+    grid-template-areas: "topo topo topo"
+                         "ce cp cd"
+                         "rod rod rod";
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 100px 1fr 200px;
+}
+
+.topo{
+    background-color: rgb(255, 66, 176);
+    grid-area: topo;
+    text-align: center;
+   font-size: 40px;
+   display: grid;
+   grid-template-areas: "topo topo topo topo";
+   grid-template-columns: "20px 1fr 1rf 20px";
+}
+
+.topo .topo1{
+    background-color: plum;
+}
+
+.topo .topo2{
+    background-color: rgb(204, 122, 204);
+}
+
+.topo .topo3{
+    background-color: rgb(150, 42, 150);
+}
+
+.topo .topo4{
+    background-color: rgb(88, 19, 88);
+}
+
+.ce{
+    background-color: rgb(255, 192, 236);
+    grid-area: ce;
+    text-align: center;
+    font-size: 50px;
+}
+
+.cp{
+    background-color: rgb(255, 99, 151);
+    grid-area: cp;
+    text-align: center;
+    font-size: 50px;
+}
+
+.cd{
+    background-color: pink;
+    grid-area: cd;
+    text-align: center;
+    font-size: 50px;
+}
+
+.rodape{
+    background-color: rgb(255, 92, 119);
+    grid-area: rod;
+    text-align: center;
+    font-size: 40px;
+}

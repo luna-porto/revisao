@@ -1,0 +1,27 @@
+body{
+    background-color: blue;
+    margin: 0%;
+}
+
+.box{
+    background-color: rgba(0 0 255);
+    height: 600px;
+    width: auto;
+    display: grid;
+    grid-template-columns: "auto auto auto auto auto auto";
+    gap: 10px;
+    
+}
+
+.div{
+    background-color: rgb(0, 255, 255);
+    grid-area: auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+.div8{
+    background-color:rgb(0, 255, 255) ;
+    grid-area: 1 / 2 / 5 / 6;
+    text-align: center;
+}
